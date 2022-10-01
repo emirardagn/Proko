@@ -1,0 +1,100 @@
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+.counter {
+  animation: counter 2s alternate ease-in-out;
+  counter-reset: num var(--num);
+  animation-fill-mode: forwards;
+}
+
+.counter::before {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 50;
+  }
+}
+
+.counter-20{
+  animation: counter-20 2s alternate ease-in-out;
+  counter-reset: num var(--num);
+  animation-fill-mode: forwards;
+}
+
+.counter-20::before {
+  content: counter(num);
+}
+
+@keyframes counter-20 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 20;
+  }
+}
+
+.counter-500{
+  animation: counter-500 2s alternate ease-in-out;
+  counter-reset: num var(--num);
+  animation-fill-mode: forwards;
+}
+
+.counter-500::before {
+  content: counter(num);
+}
+
+@keyframes counter-500 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 500;
+  }
+}
+
+.counter-100{
+  animation: counter-100 2s alternate ease-in-out;
+  counter-reset: num var(--num);
+  animation-fill-mode: forwards;
+}
+
+.counter-100::before {
+  content: counter(num);
+}
+
+@keyframes counter-100 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 100;
+  }
+}
+
+.counter-1{
+  animation: counter-1 2s alternate ease-in-out;
+  counter-reset: num var(--num);
+  animation-fill-mode: forwards;
+}
+
+.counter-1::before {
+  content: counter(num);
+}
+
+
+@keyframes counter-1 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 1000000;
+  }
+}
