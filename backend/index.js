@@ -37,9 +37,3 @@ observer.observe(document.getElementById('sayilarla-proko-500'));
 observer.observe(document.getElementById('sayilarla-proko-'));
 observer.observe(document.getElementById('sayilarla-proko-100'));
 observer.observe(document.getElementById('sayilarla-proko-1'));
-
-var numchange = document.getElementsByClassName("sayilarla-proko-1");
-console.log(numchange);
-if (numchange == "1000000"){
-  numchange = "1.000.000"
-}
