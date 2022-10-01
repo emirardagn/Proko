@@ -1,8 +1,9 @@
+
+
 function callbackFunc(entries, observer)
 {
   entries.forEach(entry => {
     if(entry.isIntersecting==true){
-      console.log(entry.target.children[0])
         var id =  entry.target.id;
         id= id.substr(15, id.length-1);
         document.getElementById(entry.target.id).classList.remove("opacity-0");
@@ -37,3 +38,8 @@ observer.observe(document.getElementById('sayilarla-proko-'));
 observer.observe(document.getElementById('sayilarla-proko-100'));
 observer.observe(document.getElementById('sayilarla-proko-1'));
 
+var numchange = document.getElementsByClassName("sayilarla-proko-1");
+console.log(numchange);
+if (numchange == "1000000"){
+  numchange = "1.000.000"
+}
