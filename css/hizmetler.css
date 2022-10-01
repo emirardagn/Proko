@@ -2,6 +2,10 @@
     width: 100%;
     height: 750px;
 }
+html {
+    scroll-behavior: smooth;
+    
+  }
 
 .bg-fabrika{
     padding: 30px;

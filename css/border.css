@@ -1,7 +1,4 @@
 
-html, body {
-  height: 100%;
-}
 
 #box {
   display: flex;
@@ -10,7 +7,7 @@ html, body {
 }
 
 .gradient-border {
-  --borderWidth: 2px;
+  --borderWidth: 3px;
   background: rgb(255, 255, 255);
   position: relative;
   border-radius: var(--borderWidth);
