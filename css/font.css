@@ -8,9 +8,6 @@ html, body {
   overflow-x: hidden;
   } 
 
-body{
-  font-family: 'Inter Tight', sans-serif;
-}
 
 
 
@@ -64,8 +61,6 @@ h1{
 }
 p{
     color: white;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Rubik', sans-serif;
     font-size: 17px;
 }
 
@@ -113,11 +108,23 @@ body{
 }
 
 .photo-for-proko{
-  width: 370px;
+  
+  width: 360px;
+  height: 560px;
+  box-shadow: 8px 8px 6px -3px rgba(0,0,0,0.56);
+  -webkit-box-shadow: 8px 8px 6px -3px rgba(0,0,0,0.56);
+  -moz-box-shadow: 8px 8px 6px -3px rgba(0,0,0,0.56);
 }
 
+.box-for-proko{
+  box-shadow: 8px 8px 6px -3px rgba(0,0,0,0.56);
+  -webkit-box-shadow: 8px 8px 6px -3px rgba(0,0,0,0.56);
+  -moz-box-shadow: 8px 8px 6px -3px rgba(0,0,0,0.56);
+}
+
+
 h1{
-  font-size: 50px;
+  font-size: 40px;
 }
 
 p{
@@ -184,4 +191,18 @@ p{
 @keyframes fromDown {
   from {opacity: 0; bottom:-50px}
   to {bottom:0px; opacity: 1;}
+}
+
+.logo-for-proko{
+  font-size: 55px;
+}
+
+.carousel h1{
+  text-align: center;
+  font-size: 60px;
+  color: #f1f1f1;
+  padding-left: 300px;
+}
+.text-custom{
+  color: #888;
 }
