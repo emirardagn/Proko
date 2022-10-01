@@ -4,7 +4,7 @@
   inherits: false;
 }
 .counter {
-  animation: counter 2s alternate ease-in-out;
+  animation: counter 1s alternate ease-in-out;
   counter-reset: num var(--num);
   animation-fill-mode: forwards;
 }
@@ -23,7 +23,7 @@
 }
 
 .counter-20{
-  animation: counter-20 2s alternate ease-in-out;
+  animation: counter-20 1s alternate ease-in-out;
   counter-reset: num var(--num);
   animation-fill-mode: forwards;
 }
@@ -42,7 +42,7 @@
 }
 
 .counter-500{
-  animation: counter-500 2s alternate ease-in-out;
+  animation: counter-500 1s alternate ease-in-out;
   counter-reset: num var(--num);
   animation-fill-mode: forwards;
 }
@@ -61,7 +61,7 @@
 }
 
 .counter-100{
-  animation: counter-100 2s alternate ease-in-out;
+  animation: counter-100 1s alternate ease-in-out;
   counter-reset: num var(--num);
   animation-fill-mode: forwards;
 }
@@ -80,7 +80,7 @@
 }
 
 .counter-1{
-  animation: counter-1 2s alternate ease-in-out;
+  animation: counter-1 1s alternate ease-in-out;
   counter-reset: num var(--num);
   animation-fill-mode: forwards;
 }
