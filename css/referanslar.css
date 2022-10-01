@@ -7,7 +7,7 @@
   .square {
     background:#fff;
     position: relative;
-    min-width: 200px;
+    min-width: 50px;
     width: 250px;
     height: 250px;
     transition-duration: 0.7s;
@@ -30,9 +30,6 @@
     pointer-events: none;
   }
 
-  .gallery{
-    margin-left: 100px;
-  }
 
   .location{
     font-size: 15px;
