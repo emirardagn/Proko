@@ -1,6 +1,18 @@
 html {
   scroll-behavior: smooth;
+  
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  } 
+
+body{
+  font-family: 'Inter Tight', sans-serif;
+}
+
+
 
 ::-moz-selection { /* Code for Firefox */
   color: white;
@@ -135,3 +147,41 @@ p{
   to {top:0px; opacity: 1;};
 }
 
+
+.fromLeft{
+  animation: fromLeft 1s;
+}
+
+@keyframes fromLeft {
+  from {opacity: 0; left:-100px}
+  to {left:0px; opacity: 1;}
+}
+
+
+.fromRight{
+  animation: fromRight 1s;
+}
+
+@keyframes fromRight {
+  from {opacity: 0; right:-100px}
+  to {right:0px; opacity: 1;}
+}
+
+.fromUp{
+  animation: fromUp 1s;
+  top: 0px;
+}
+
+@keyframes fromUp {
+  from {top:-50px; opacity: 0;};
+  to {top:0px; opacity: 1;};
+}
+
+.fromDown{
+  animation: fromDown 1s;
+}
+
+@keyframes fromDown {
+  from {opacity: 0; bottom:-50px}
+  to {bottom:0px; opacity: 1;}
+}
