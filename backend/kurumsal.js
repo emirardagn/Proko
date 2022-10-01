@@ -1,6 +1,7 @@
 
 
 
+
 function callbackFunc(entries, observer)
 {
   entries.forEach(entry => {
@@ -25,21 +26,10 @@ let options = {
     threshold: 0.3
   };
 
-let observer = new IntersectionObserver(callbackFunc, options);
+  let observer = new IntersectionObserver(callbackFunc, options);
+  var i;
+  for(i=1; i<9;i++){
+    observer.observe(document.getElementById("Right-"+i));
+    observer.observe(document.getElementById("Left-"+i));
+  }
 
-var i;
-
-
-observer.observe(document.getElementById("Right-1"));
-observer.observe(document.getElementById("Right-2"));
-observer.observe(document.getElementById("Right-3"));
-observer.observe(document.getElementById("Right-4"));
-observer.observe(document.getElementById("Right-5"));
-observer.observe(document.getElementById("Right-6"));
-
-observer.observe(document.getElementById("Left-1"));
-observer.observe(document.getElementById("Left-2"));
-observer.observe(document.getElementById("Left-3"));
-observer.observe(document.getElementById("Left-4"));
-observer.observe(document.getElementById("Left-5"));
-observer.observe(document.getElementById("Left-6"));
