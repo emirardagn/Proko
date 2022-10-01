@@ -4,7 +4,8 @@ var i;
 
     
     for(i = 0; i<gallery.length; i++){
-
+        
+      
 
           gallery[i].addEventListener("click",function(){
            
@@ -12,6 +13,7 @@ var i;
         var location =  this.getElementsByClassName("location")[0].innerText;
         var mainPhoto = this.style.backgroundImage;
         mainPhoto =  mainPhoto.substr(5,mainPhoto.length-7);
+        
         
         
         var my = window.open('proje.html');
