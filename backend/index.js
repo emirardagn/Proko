@@ -1,5 +1,3 @@
-
-
 function callbackFunc(entries, observer)
 {
   entries.forEach(entry => {
