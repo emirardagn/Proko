@@ -80,7 +80,7 @@
     <!-- Probably Gonna Remove -->
     <div class="container p-5 mt-3">
       <div class="row">
-        <div class= "col-8 bg-fabrika text-dark">
+        <div class= "col-sm col-lg-8 bg-fabrika text-dark">
           <div style=" font-size: 34px;">Ticari ve Endüstriyel binalarda en çok kullanılan malzeme olan çelik ile ilgili birçok yapısal parçayı kendi bünyemizde imal etmekteyiz. <span class="color-proko">1.200 m2</span> kapalı alan sahip imalathanemizde yıllık <span class="color-proko">4.000.000 kg</span> çelik işlenebilmektedir.</div>
           <div style="margin-top: 30px;">Sertifikalı mühendis, tekniker, ustabaşı ve kaynakçılarımızla Avrupa Birliği standartlarına uygun yapılar ve yapı parçaları imal etmekteyiz. İmalathanemiz Avrupa Birliği standartlarına uygun ve yer yer bu standartları aşan kalitede üretim yaparak meydana getirdiği yapıların güvenliğini, sağlamlığını ve kalitesini garanti etmektedir.</div>
         </div>
@@ -93,14 +93,15 @@
     <!-- Hizmetlerimiz -->
     <div id="hizmetler">
       
-      <div class="container">
+      <!-- > lg screen -->
+      <div class="container d-none d-lg-block">
         <h1 style="border-bottom: 1px solid;" class="p-4 text-dark text-center mt-5">Fabrika Hizmetlerimiz</h1>
         <div class="row">
-          <li class="col-sm list-fabrika-1 border-left border-right border-dark text-center">Danışmanlık</li>
-          <li class="col-sm list-fabrika-1 border-right border-dark text-center">Dizayn</li>
-          <li class="col-sm list-fabrika-1 border-right border-dark text-center">Mühendislik</li>
-          <li class="col-sm list-fabrika-1 border-right border-dark text-center">Montaj</li>
-          <li class="col-sm list-fabrika-1 border-right border-dark text-center">Taşıma</li>
+          <li class="col-sm list-fabrika-1  border-left border-right border-lg-top border-dark text-center">Danışmanlık</li>
+          <li class="col-sm list-fabrika-1  border-right border-dark text-center">Dizayn</li>
+          <li class="col-sm list-fabrika-1  border-right border-dark text-center">Mühendislik</li>
+          <li class="col-sm list-fabrika-1  border-right border-dark text-center">Montaj</li>
+          <li class="col-sm list-fabrika-1  border-right border-dark text-center">Taşıma</li>
           </div>
         <div class="row">
           <li class="col-sm list-fabrika-2 border-left border-right border-dark text-center ">Kumlama <span class="info-fabrika" title="Sac Kumlama, Profil Kumlama"><ion-icon name="information-circle-outline"></ion-icon></li>
@@ -117,70 +118,96 @@
           <li class="col-sm list-fabrika-3 border-right border-dark text-center">Profil-Boru-Köşebent İşleme <span class="info-fabrika" title="Kesme, Bükme, Delik Delme, Diş Açma"><ion-icon name="information-circle-outline"></ion-icon></li>
         </div>
       </div>
+
+      <!-- < lg screen -->
+      <div class="container p-5 d-block d-lg-none">
+        <h1 style="border-bottom: 1px solid;" class=" text-dark text-center  mt-5">Fabrika Hizmetlerimiz</h1>
+        <div class="row">
+          <li class="col-sm p-5 s-font list-fabrika-1 border-top border-bottom border-dark text-center">Danışmanlık</li>
+          <li class="col-sm p-5 s-font list-fabrika-1 border-top border-bottom border-dark text-center">Dizayn</li>
+          <li class="col-sm p-5 s-font list-fabrika-1 border-top border-bottom border-dark text-center">Mühendislik</li>
+          <li class="col-sm p-5 s-font list-fabrika-1 border-top border-bottom border-dark text-center">Montaj</li>
+          <li class="col-sm p-5 s-font list-fabrika-1 border-top border-bottom border-dark text-center">Taşıma</li>
+          </div>
+        <div class="row">
+          <li class="col-sm p-5 s-font list-fabrika-2 border-top border-bottom border-dark text-center ">Kumlama <span class="info-fabrika" title="Sac Kumlama, Profil Kumlama"><ion-icon name="information-circle-outline"></ion-icon></li>
+          <li class="col-sm p-5 s-font list-fabrika-2 border-top border-bottom border-dark text-center">Boyama <span class="info-fabrika" title="Shop Primer (Astar) Boya, Son Kat Boya, Toz Fırın Boya"><ion-icon name="information-circle-outline"></ion-icon></li>
+          <li class="col-sm p-5 s-font list-fabrika-2 border-top border-bottom border-dark text-center">Sac İşleme <span class="info-fabrika" title="CNC Plazma Kesim, Lazer Kesim, Delme, Markalama"><ion-icon name="information-circle-outline"></ion-icon></li>   
+          <li class="col-sm p-5 s-font list-fabrika-2 border-top border-bottom border-dark text-center ">Kaynak <span class="info-fabrika" title="Gazaltı Kaynak, Elektrik Ark Kaynağı"><ion-icon name="information-circle-outline"></ion-icon></li>    
+          <li class="col-sm p-5 s-font list-fabrika-2 border-top border-bottom border-dark text-center ">Yüzey Kaplama <span class="info-fabrika" title="Sıcak Daldırma Galvaniz, Elektrogalvaniz, Metalizasyon"><ion-icon name="information-circle-outline"></ion-icon></li> 
+        </div>
+        <div class="row">           
+          <li class="col-sm p-5 s-font list-fabrika-3 border-top border-bottom border-dark text-center">Temizleme</li>
+          <li class="col-sm p-5 s-font list-fabrika-3 border-top border-bottom border-dark text-center ">Süpervizörlük</li>
+          <li class="col-sm p-5 s-font list-fabrika-3 border-top border-bottom border-dark text-center">Malzeme Tedariği</li>
+          <li class="col-sm p-5 s-font list-fabrika-3 border-top border-bottom border-dark text-center">Paketleme</li>
+          <li class="col-sm p-5 s-font list-fabrika-3 border-top border-bottom border-dark text-center">Profil-Boru-Köşebent İşleme <span class="info-fabrika" title="Kesme, Bükme, Delik Delme, Diş Açma"><ion-icon name="information-circle-outline"></ion-icon></li>
+        </div>
+      </div>
     </div>
 
     <!-- Makine Parkurumuz-->
    <div id="parkurumuz" style="margin-top: 150px; margin-bottom:150px;" class="container">
     <h1 class="text-center text-dark p-4 border-bottom border-dark">MAKINE PARKURUMUZ</h1>
-    <div class="row text-center list-fabrikas pl-2 pr-2 text-light">
-      <div class="col-sm">NO</div>
-      <div class="col-sm">MAKINE</div>
-      <div class="col-sm">ADET</div>
+    <div class="row text-center list-fabrikas text-light">
+      <div class="col-sm d-none d-lg-block">NO</div>
+      <div class="col-sm d-none d-lg-block">MAKINE</div>
+      <div class="col-sm d-none d-lg-block">ADET</div>
     </div>
     <div class="text-center row border-color p-2">
-      <div class="col-sm text-dark">01</div>
+      <div class="col-sm text-dark d-none d-lg-block ">01</div>
       <div class="col-sm text-dark">Şerit Testere Makinesi</div>
-      <div class="col-sm text-dark">3</div>
+      <div class="col-sm text-dark d-none d-lg-block ">3</div>
     </div>
     <div class="text-center row border-color p-2">
-      <div class="col-sm text-dark">02</div>
+      <div class="col-sm text-dark d-none d-lg-block ">02</div>
       <div class="col-sm text-dark">CNC Plazma Kesim Makinesi <span class="info-fabrika" title="1500mm x 6000mm"><ion-icon name="information-circle-outline"></ion-icon> </div>
-      <div class="col-sm text-dark">1</div>
+      <div class="col-sm text-dark d-none d-lg-block ">1</div>
     </div>
     <div class="text-center row border-color p-2">
-      <div class="col-sm text-dark">03</div>
+      <div class="col-sm text-dark d-none d-lg-block ">03</div>
       <div class="col-sm text-dark">Sütunlu Matkap</div>
-      <div class="col-sm text-dark">1</div>
+      <div class="col-sm text-dark d-none d-lg-block">1</div>
     </div>
     <div class="text-center row border-color p-2">
-      <div class="col-sm text-dark">04</div>
+      <div class="col-sm text-dark d-none d-lg-block ">04</div>
       <div class="col-sm text-dark">Manyetik Matkap</div>
-      <div class="col-sm text-dark">4</div>
+      <div class="col-sm text-dark d-none d-lg-block">4</div>
     </div>
     <div class="text-center row border-color p-2">
-      <div class="col-sm text-dark">05</div>
+      <div class="col-sm text-dark d-none d-lg-block ">05</div>
       <div class="col-sm text-dark">Gazaltı Kaynak Makinası</div>
-      <div class="col-sm text-dark">24</div>
+      <div class="col-sm text-dark d-none d-lg-block">24</div>
     </div>
     <div class="text-center row border-color p-2">
-      <div class="col-sm text-dark">06</div>
+      <div class="col-sm text-dark d-none d-lg-block ">06</div>
       <div class="col-sm text-dark">Elektrik Ark Kaynağı</div>
-      <div class="col-sm text-dark">12</div>
+      <div class="col-sm text-dark d-none d-lg-block">12</div>
     </div>
     <div class="text-center row border-color p-2">
-      <div class="col-sm text-dark">07</div>
+      <div class="col-sm text-dark d-none d-lg-block ">07</div>
       <div class="col-sm text-dark">Parça Kumlama Makinesi</div>
-      <div class="col-sm text-dark">1</div>
+      <div class="col-sm text-dark d-none d-lg-block">1</div>
     </div>
     <div class="text-center row border-color p-2">
-      <div class="col-sm text-dark">08</div>
+      <div class="col-sm text-dark d-none d-lg-block ">08</div>
       <div class="col-sm text-dark">Airless Sprey Boya Makinesi</div>
-      <div class="col-sm text-dark">1</div>
+      <div class="col-sm text-dark d-none d-lg-block">1</div>
     </div>
     <div class="text-center row border-color p-2">
-      <div class="col-sm text-dark">09</div>
+      <div class="col-sm text-dark d-none d-lg-block ">09</div>
       <div class="col-sm text-dark">Tavan Vinci</div>
-      <div class="col-sm text-dark">3</div>
+      <div class="col-sm text-dark d-none d-lg-block">3</div>
     </div>
     <div class="text-center row border-color p-2">
-      <div class="col-sm text-dark">10</div>
+      <div class="col-sm text-dark d-none d-lg-block">10</div>
       <div class="col-sm text-dark">Forklift</div>
-      <div class="col-sm text-dark">2</div>
+      <div class="col-sm text-dark d-none d-lg-block">2</div>
     </div>
     <div class="text-center row border-color p-2">
-      <div class="col-sm text-dark">11</div>
+      <div class="col-sm text-dark d-none d-lg-block">11</div>
       <div class="col-sm text-dark">Jeneratör</div>
-      <div class="col-sm text-dark">1</div>
+      <div class="col-sm text-dark d-none d-lg-block">1</div>
     </div>
    </div>
 
@@ -231,7 +258,7 @@
 
       <div style="margin-top: 20px;" class="col-sm">
         <p class="footer-headline">İletişim</p>
-        <li class="footer-link">Telefon: <a href="tel:+90 216 383 42 00">0216 383 42 00</a></li>
+        <li class="footer-link">Telefon: <a href="tel:+90 216 383 42 00 d-none d-lg-block ">0216 383 42 00</a></li>
         <li class="footer-link">Fax: <a href="fax:+90 216 383 42 00">0216 383 42 00</a> </li>
         <br>Altayçeşme Mh. Toygun Sk. No: 1 Kat: 4<br>Maltepe/İstanbul 34843<br>Turkey
         <div><br>PROKO YAPI ENDÜSTRİSİ İNŞAAT METAL SANAYİ TİCARET LİMİTED ŞİRKETİ<br>İlyasbey V.D. - 7330366576<br>Gebze Ticaret Odası - 13685</div>
@@ -244,10 +271,10 @@
 
   
     <!-- Scripts -->
-    <script>ScrollReveal({ reset:true, duration: 550})</script>
+    <script>ScrollReveal({ reset:true, duration: 250})</script>
     <script>ScrollReveal().reveal('.list-fabrika-1',{delay:300})</script>
-    <script>ScrollReveal().reveal('.list-fabrika-2',{delay:600})</script>
-    <script>ScrollReveal().reveal('.list-fabrika-3',{delay:900})</script>
+    <script>ScrollReveal().reveal('.list-fabrika-2',{delay:400})</script>
+    <script>ScrollReveal().reveal('.list-fabrika-3',{delay:500})</script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>
