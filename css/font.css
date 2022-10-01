@@ -8,9 +8,6 @@ html, body {
   overflow-x: hidden;
   } 
 
-
-
-
 ::-moz-selection { /* Code for Firefox */
   color: white;
   background-color: #f95222;
@@ -63,16 +60,6 @@ p{
     color: white;
     font-size: 17px;
 }
-
-body{
-    margin: 0;
-    padding: 0;        
-}
-
-.imgs{
-    text-align: center;
-}
-
 
 .centered {
   position: absolute;
@@ -208,3 +195,6 @@ p{
   color: #888;
 }
 
+.opacity-0{
+  opacity: 0;
+}

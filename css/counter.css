@@ -3,17 +3,17 @@
   initial-value: 0;
   inherits: false;
 }
-.counter {
-  animation: counter 1s alternate ease-in-out;
+.counter- {
+  animation: counter- 1s alternate ease-in-out;
   counter-reset: num var(--num);
   animation-fill-mode: forwards;
 }
 
-.counter::before {
+.counter-::before {
   content: counter(num);
 }
 
-@keyframes counter {
+@keyframes counter- {
   from {
     --num: 0;
   }
