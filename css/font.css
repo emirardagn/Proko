@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body {
@@ -52,10 +52,6 @@ html, body {
     background-size: 100%;        
 }
 
-h1{
-    color: rgb(0, 0, 0);
-    font-size: 40px;
-}
 p{
     color: white;
     font-size: 17px;
@@ -184,17 +180,69 @@ p{
   font-size: 55px;
 }
 
-.carousel h1{
-  text-align: center;
-  font-size: 60px;
-  color: #f1f1f1;
-  padding-left: 300px;
-  user-select: none;
-}
 .text-custom{
   color: #888;
 }
 
 .opacity-0{
   opacity: 0;
+}
+
+.bg-image {
+  /* The image used */
+
+  /* Add the blur effect */
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  
+  /* Full height */
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  border-radius: 10px;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 2px solid #ffffffcc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bottom-text{
+  background-color: rgba(119, 119, 119, 0.692);
+  border-radius: 5px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 25px;
+  transition-duration: 0.5s;
+}
+
+.bottom-text:hover{
+  background-color: #f95222;
+  text-decoration: none;
+  color: white;
+}
+.incele:hover{
+  color: white;
 }
