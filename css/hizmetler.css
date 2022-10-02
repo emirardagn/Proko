@@ -1,7 +1,3 @@
-.slide-hizmetler{
-    width: 100%;
-    height: 750px;
-}
 html {
     scroll-behavior: smooth;
     
@@ -52,3 +48,9 @@ ion-icon {
     -webkit-box-shadow: 8px 12px 13px -3px rgba(0,0,0,0.75);
     -moz-box-shadow: 8px 12px 13px -3px rgba(0,0,0,0.75);
 }
+.container-img{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
