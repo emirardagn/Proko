@@ -113,11 +113,11 @@ html, body {
 
 .fromUp{
   animation: fromUp 1s;
-  top: 50px;
+
 }
 
 @keyframes fromUp {
-  from {top:-50px; opacity: 0;};
+  from {top:+10px; opacity: 0;};
   to {top:0px; opacity: 1;};
 }
 
@@ -141,22 +141,13 @@ html, body {
   to {right:0px; opacity: 1;}
 }
 
-.fromUp{
-  animation: fromUp 1s;
-  top: 0px;
-}
-
-@keyframes fromUp {
-  from {top:-50px; opacity: 0;};
-  to {top:0px; opacity: 1;};
-}
 
 .fromDown{
   animation: fromDown 1s;
 }
 
 @keyframes fromDown {
-  from {opacity: 0; bottom:-50px}
+  from {opacity: 0; bottom:+50px}
   to {bottom:0px; opacity: 1;}
 }
 
@@ -259,4 +250,25 @@ html, body {
   padding: 10px;
   text-align: center;
   font-weight: bold;
+}
+
+.proko-border-top{
+  padding: 12px;
+  border-radius: 40% 40% 0 0;
+  border-top: 80px solid ;
+  border-color: rgb(52, 52, 52) ;
+  background-color: #f95122c9;
+  margin-bottom: 0px;
+  
+}
+
+.proko-bg{
+  border-top: 6px solid #000;
+  border-bottom: 6px solid #000;
+  margin-top: 0px;
+  background-color: rgb(52, 52, 52) ;
+  padding: 5px;
+}
+.type-proko{
+  font-family: 'Dancing Script', cursive;
 }
