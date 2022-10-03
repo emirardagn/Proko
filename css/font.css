@@ -236,20 +236,17 @@ html, body {
 
 .bg-text-1 {
   border-radius: 2px; /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.481); /* Black w/opacity/see-through */
+  background-color: rgba(0, 0, 0, 0.715); /* Black w/opacity/see-through */
   color: white;
-  font-weight: bold;
-  border-radius: 20px;
   border: 1px solid #ffffff00;
   position: absolute;
-  top: 50%;
+  top: 84%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 60%;
-  padding: 10px;
-  text-align: center;
-  font-weight: bold;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .proko-border-top{
