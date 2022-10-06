@@ -290,3 +290,14 @@ html, body {
   border-color: #f95222;
 }
 
+.border-nnn{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #f95222;
+}
+
+
+.border-nnnn{
+  border-bottom: 1px solid;
+  border-color: #f95222;
+}
