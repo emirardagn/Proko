@@ -1,7 +1,9 @@
+
 html {
   scroll-behavior: smooth;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
+
 
 html, body {
   max-width: 100%;
@@ -240,7 +242,7 @@ html, body {
   color: white;
   border: 1px solid #ffffff00;
   position: absolute;
-  top: 84%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -269,3 +271,22 @@ html, body {
 .type-proko{
   font-family: 'Dancing Script', cursive;
 }
+
+.bg-black{
+  background-color: #000;
+}
+
+.border-n{
+  text-align: right;
+  border-bottom: 4px solid;
+  width: 550px;
+  border-radius: 3px;
+  color: #f95222;
+}
+
+.border-nn{
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: #f95222;
+}
+

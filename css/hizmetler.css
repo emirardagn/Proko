@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    
+    max-width: 100%;
   }
 
 .bg-fabrika{
@@ -57,3 +57,25 @@ ion-icon {
     color: white;
   }
   
+  .foo :hover{
+    text-decoration: none;
+    color: #c73f19;
+  }
+
+  .mycard{
+    position: relative;
+    padding: 15px;
+    left: 7%;
+    height: 150px;
+    width: 150px;
+    background-color: #c73f19;
+    margin-bottom: 20px;
+}
+
+.triangle{
+    width: 3px;
+height: 3px;
+border-style: solid;
+border-width: 5px 0 5px 10px;
+border-color: transparent transparent transparent #f95222;
+}
