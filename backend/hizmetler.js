@@ -11,7 +11,7 @@ function callbackFunc(entries, observer)
             id = "Left"
         }
         document.getElementById(entry.target.id).classList.remove("opacity-0");
-        document.getElementById(entry.target.id).classList.add("from"+id);
+        document.getElementById(entry.target.id).classList.add("fromDown");
     }
   });
 }
@@ -24,8 +24,6 @@ let options = {
 
   let observer = new IntersectionObserver(callbackFunc, options);
   var i;
-  for(i=1; i<9;i++){
-    observer.observe(document.getElementById("Right-"+i));
-    observer.observe(document.getElementById("Left-"+i));
+  for(i=1; i<47;i++){
+    observer.observe(document.getElementById("from"+i));
   }
-

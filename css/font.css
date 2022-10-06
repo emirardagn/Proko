@@ -119,8 +119,8 @@ html, body {
 }
 
 @keyframes fromUp {
-  from {top:+10px; opacity: 0;};
-  to {top:0px; opacity: 1;};
+  from {top:-50px; opacity: 0;};
+  to {bottom:0px; opacity: 1;};
 }
 
 
@@ -149,7 +149,7 @@ html, body {
 }
 
 @keyframes fromDown {
-  from {opacity: 0; bottom:+50px}
+  from {opacity: 0; bottom:-100px}
   to {bottom:0px; opacity: 1;}
 }
 
