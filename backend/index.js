@@ -10,7 +10,9 @@ function callbackFunc(entries, observer)
         } 
         else if (entry.target.id== "column-2"|| entry.target.id== "column-3") {
         document.getElementById(entry.target.id).classList.add("fromRight");
-      }
+        }else if (entry.target.id == "carousel"){
+          document.getElementById(entry.target.id).classList.add("fromDown")
+        }
       else{
         entry.target.children[0].classList.add("counter"+id);
       }
@@ -29,7 +31,7 @@ let observer = new IntersectionObserver(callbackFunc, options);
 observer.observe(document.getElementById('photo-why-proko'));
 observer.observe(document.getElementById('column-2'));
 observer.observe(document.getElementById('column-3'));
-
+observer.observe(document.getElementById("carousel"));
 observer.observe(document.getElementById('sayilarla-proko-20'));
 observer.observe(document.getElementById('sayilarla-proko-500'));
 observer.observe(document.getElementById('sayilarla-proko-'));
