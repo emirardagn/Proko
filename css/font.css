@@ -303,3 +303,25 @@ html, body {
   border-bottom: 1px solid;
   border-color: #f95222;
 }
+
+.w-link{
+  color: #f1f1f1;
+  font-size: 20px;
+}
+
+
+.link-link :hover{
+  transition-duration: 0.8s;
+  color: #f95222;
+  text-decoration: none;
+}
+
+.button-kesfet{
+  position: relative;
+  background-color: #6b6b6b31;
+  color: #000;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 20px;
+}
