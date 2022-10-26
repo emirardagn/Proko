@@ -10,6 +10,8 @@ html, body {
   overflow-x: hidden;
   } 
 
+
+
 ::-moz-selection { /* Code for Firefox */
   color: white;
   background-color: #f95222;
