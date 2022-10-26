@@ -318,10 +318,40 @@ html, body {
 
 .button-kesfet{
   position: relative;
-  background-color: #6b6b6b31;
-  color: #000;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #05050556;
+  color: rgb(224, 224, 224);
   text-decoration: none;
-  padding: 20px;
   font-size: 30px;
-  border-radius: 20px;
+  border-radius: 5px;
+  border: 2px solid #05050556;
+}
+
+.buttons :hover{
+  transition-duration: 1s;
+  background-color: #1a1a1a;
+  text-decoration: none;
+  color: rgb(224, 224, 224);
+}
+
+.button-kesfet :hover{
+  text-decoration: none;
+  
+}
+
+.button-kesfet-2{
+  position: relative;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #05050500;
+  color: rgb(224, 224, 224);
+  text-decoration: none;
+  border: 2px solid rgb(224, 224, 224);
+  font-size: 30px;
+  border-radius: 5px;
 }
